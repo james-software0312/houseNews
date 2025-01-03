@@ -1,0 +1,39 @@
+{
+  "menu": [
+    {
+      "url": "/tasks",
+      "name": "Tasks",
+      "icon": "menu-icon tf-icons bx bx-box",
+      "slug": "tasks",
+      "permission": "0"
+    },
+    {
+      "url": "/declarants",
+      "name": "Declarants",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "declarants",
+      "permission": "0"
+    },
+    {
+      "url": "/properties",
+      "name": "Properties",
+      "icon": "menu-icon tf-icons bx bx-map-pin",
+      "slug": "properties",
+      "permission": "0"
+    },
+    {
+      "url": "/police_stations",
+      "name": "Police Stations",
+      "icon": "menu-icon tf-icons bx bx-check-shield",
+      "slug": "police_stations",
+      "permission": "1"
+    },
+    {
+      "url": "/users",
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "users",
+      "permission": "1"
+    }
+  ]
+}

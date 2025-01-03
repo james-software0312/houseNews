@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cpsess5934431051/public_html/
+    # Recursively copy all files including hidden files, preserving attributes
+    - /bin/cp -a . "$DEPLOYPATH"
+    - cd "$DEPLOYPATH" && composer install --no-dev --optimize-autoloader
+    # Run Laravel specific commands
+    - cd "$DEPLOYPATH" && php artisan migrate --force
+    - cd "$DEPLOYPATH" && php artisan config:cache
+    - cd "$DEPLOYPATH" && php artisan route:cache
+    - cd "$DEPLOYPATH" && php artisan cache:clear

@@ -1,0 +1,47 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-smile",
+      "slug": "dashboard",
+      "permission": "0"
+    },
+    {
+      "url": "/tasks",
+      "name": "Tasks",
+      "icon": "menu-icon tf-icons bx bx-box",
+      "slug": "tasks",
+      "permission": "0"
+    },
+    {
+      "menuHeader": "Resources",
+      "permission": "0"
+    },
+    {
+      "url": "/users",
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "users",
+      "permission": "1"
+    },
+    {
+      "url": "/properties",
+      "name": "Properties",
+      "icon": "menu-icon tf-icons bx bx-map-pin",
+      "slug": "properties",
+      "permission": "0"
+    },
+    {
+      "menuHeader": "Settings",
+      "permission": "0"
+    },
+    {
+      "url": "/setting/account",
+      "name": "Account Setting",
+      "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "setting.account",
+      "permission": "0"
+    }
+  ]
+}
